@@ -52,7 +52,7 @@ public class HomeActivity extends AppCompatActivity implements RecyclerViewInter
         String idUsuario = "63b372dce16477ad63f9735f";
 
         // URI de los servicios de X prestador
-        String URI_SERVICIOS_PRESTADOR = "http://192.168.137.1:3000/api/prestador/" + idUsuario + "/servicios";
+        String URI_SERVICIOS_PRESTADOR = "https://homecareplus.vercel.app/api/prestador/" + idUsuario + "/servicios";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, URI_SERVICIOS_PRESTADOR,
                 new Response.Listener<String>() {

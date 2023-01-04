@@ -16,7 +16,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.ViewHolder> {
     private final RecyclerViewInterface recyclerViewInterface;
     Context context;
     ArrayList<Servicio> listaServicios;
-    String URL_IMG_SERVICIOS = "http://192.168.137.1:3000/static/images/services/";
+    String URL_IMG_SERVICIOS = "https://homecareplus.vercel.app/static/images/services/";
 
     public Adaptador(Context context, ArrayList<Servicio> listaServicios, RecyclerViewInterface recyclerViewInterface) {
         this.context = context;

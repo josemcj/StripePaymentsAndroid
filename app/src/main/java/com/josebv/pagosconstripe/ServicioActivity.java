@@ -28,7 +28,7 @@ import java.text.DecimalFormat;
 
 public class ServicioActivity extends AppCompatActivity {
 
-    private final String URI_BASE = "http://192.168.137.1:3000";
+    private final String URI_BASE = "https://homecareplus.vercel.app";
 
     ShapeableImageView ivImgServicio, ivImgPrestador;
     TextView tvTitulo, tvDescripcion, tvNombrePrestador, tvInfoPrestador, tvPrecio;

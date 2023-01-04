@@ -25,3 +25,6 @@ android {
   }
 }
 ```
+
+## Programación para el pago
+Se encuentra en el archivo `ServiciosActivity.java`.
